@@ -13,7 +13,7 @@ const Informacion: React.FC = () => {
     <div className={styles.container2}>
       <div className={styles.area1}>
         <div className={styles.imagen}>
-          <img src="/img/terapeuta2.png" alt="Descripción de la imagen" />
+          <img src={`${process.env.PUBLIC_URL}/img/terapeuta2.png`}alt="Descripción de la imagen" />
         </div>
           <div className={styles.texto}>
             <h1>Informacio GeneraL</h1>

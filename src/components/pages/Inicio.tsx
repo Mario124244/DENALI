@@ -23,10 +23,11 @@ const Inicio: React.FC = () => {
         <div className='carrousel1'>
           <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
             <div>
-              <img src="/img/imagen1.png" alt="Imagen 1" />
+            <img src={`${process.env.PUBLIC_URL}/img/imagen1.png`} alt="Imagen 1" />
+
             </div>
             <div>
-              <img src="/img/slide2.jpg" alt="Imagen 2" />
+              <img src={`${process.env.PUBLIC_URL}/img/Baby 1.png`} alt="Imagen 2" />
             </div>
             <div>
               <img src="/img/Baby 1.png" alt="Imagen 3" />
