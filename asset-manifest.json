@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Mario124244/DENALI.git/static/css/main.0cd442ee.css",
-    "main.js": "/Mario124244/DENALI.git/static/js/main.617770e5.js",
-    "static/js/453.be7d64de.chunk.js": "/Mario124244/DENALI.git/static/js/453.be7d64de.chunk.js",
-    "static/media/FilsonProBlack.otf": "/Mario124244/DENALI.git/static/media/FilsonProBlack.03a9993b8c09e0e6cc2f.otf",
-    "static/media/FilsonProThin.otf": "/Mario124244/DENALI.git/static/media/FilsonProThin.ce895acb0838536bb0d8.otf",
-    "static/media/Candela.otf": "/Mario124244/DENALI.git/static/media/Candela.724052f84b9202528ce3.otf",
-    "index.html": "/Mario124244/DENALI.git/index.html",
-    "main.0cd442ee.css.map": "/Mario124244/DENALI.git/static/css/main.0cd442ee.css.map",
-    "main.617770e5.js.map": "/Mario124244/DENALI.git/static/js/main.617770e5.js.map",
-    "453.be7d64de.chunk.js.map": "/Mario124244/DENALI.git/static/js/453.be7d64de.chunk.js.map"
+    "main.css": "/Mario124244/DENALI/static/css/main.47a037a8.css",
+    "main.js": "/Mario124244/DENALI/static/js/main.87b87d67.js",
+    "static/js/453.be7d64de.chunk.js": "/Mario124244/DENALI/static/js/453.be7d64de.chunk.js",
+    "static/media/FilsonProBlack.otf": "/Mario124244/DENALI/static/media/FilsonProBlack.03a9993b8c09e0e6cc2f.otf",
+    "static/media/FilsonProThin.otf": "/Mario124244/DENALI/static/media/FilsonProThin.ce895acb0838536bb0d8.otf",
+    "static/media/Candela.otf": "/Mario124244/DENALI/static/media/Candela.724052f84b9202528ce3.otf",
+    "index.html": "/Mario124244/DENALI/index.html",
+    "main.47a037a8.css.map": "/Mario124244/DENALI/static/css/main.47a037a8.css.map",
+    "main.87b87d67.js.map": "/Mario124244/DENALI/static/js/main.87b87d67.js.map",
+    "453.be7d64de.chunk.js.map": "/Mario124244/DENALI/static/js/453.be7d64de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd442ee.css",
-    "static/js/main.617770e5.js"
+    "static/css/main.47a037a8.css",
+    "static/js/main.87b87d67.js"
   ]
 }
