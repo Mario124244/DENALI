@@ -1,0 +1,158 @@
+
+body.no-scroll {
+  overflow: hidden; /* 🚫 Bloquea el scroll */
+}
+
+body.inicio-body {
+  background-color: #FEF7F0; /* tu color de fondo */
+}
+
+
+  
+  
+  .carrousel1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    max-width: 300px;
+    margin: 0 auto;
+    z-index: 10;
+    
+    
+  }
+  .carousel .slide img {
+    max-height: 300px;
+    
+    
+    
+  }
+  .parte2{
+    grid-row-start: 1;
+    grid-column-start: 2;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5  , 1fr);
+    gap: 8px;
+    
+}
+.side-button {
+  grid-row: span 4 / span 4;
+  grid-row-start: 2;
+  
+  
+}
+
+.btn1:hover {
+  background-color: #f87171; /* Un poco más fuerte al pasar el mouse */
+}
+
+
+
+.btn1 {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  transform: rotate(-90deg) translateY(-20%);
+  transform-origin: left top;
+
+  display: flex;
+  justify-content: center;  /* centra horizontalmente */
+  align-items: center;      /* centra verticalmente */
+
+  background-color: #fca5a5;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 60px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s;
+  z-index: 11;
+  height: 8dvh;
+  width: 120fr;
+  white-space: nowrap;
+  text-align: center;
+}
+
+
+
+/* 🎯 Media query para móviles pequeños (menos de 480px) */
+@media (max-width: 480px) {
+  html, body {
+    font-size: 14px;
+    
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 20px;
+  }
+
+  .carrousel1,
+  .parte2 {
+    width: 100%;
+    max-width: 95%;
+    text-align: center;
+  }
+
+  .carousel .slide img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .btn1 {
+    position: fixed;
+    left: -35px; /* Lo acercamos más */
+    top: 60%;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: left top;
+    font-size: 0.7rem;
+    padding: 6px 14px;
+    border-radius: 16px;
+  }
+}
+
+
+@media (max-width: 640px) {
+  html, body {
+    font-size: 14px;
+    
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 20px;
+  }
+
+  .carrousel1,
+  .parte2 {
+    width: 100%;
+    max-width: 95%;
+    text-align: center;
+  }
+
+  .carousel .slide img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .btn1 {
+    position: fixed;
+    left: -35px; /* Lo acercamos más */
+    top: 60%;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: left top;
+    font-size: 0.7rem;
+    padding: 6px 14px;
+    border-radius: 16px;
+  }
+}

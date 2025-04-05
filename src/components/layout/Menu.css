@@ -1,0 +1,225 @@
+/* src/components/Menu.css */
+
+.navbar {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center;
+  background: #FEF7F0;
+  padding: 10px 30px;
+  width: fit-content; /* Solo ocupa lo necesario */
+  margin: 30px auto;  /* Centra horizontalmente en el viewport */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+
+}
+@font-face {
+  font-family: 'Candela';
+  src: url('../../assets/fonts/Candela.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* PONER MONTAÑA */
+/* Logo */
+/* Logo */
+.logo {
+  font-size: 24px;
+  display: flex;
+  align-items: baseline;
+  font-weight: bold;
+  font-family: 'Baloo 2', sans-serif;
+}
+
+/* Letras individuales con colores del logo */
+.letter {
+  font-family: 'Candela', sans-serif;
+  transition: color 0.3s ease-in-out, transform 0.2s ease;
+  letter-spacing: 8px;
+}
+
+/* Colores específicos */
+.letter1 {
+  color: #be9bd6 /* Rosa */
+}
+.letter2 {
+  color: #f5a0b5; /* Naranja claro */
+}
+.letter3 {
+  color: #f8e56f; /* Amarillo pastel */
+}
+.letter4 {
+  color: #99dacd; /* Verde pastel */
+}
+.letter5 {
+  color: #b1c5ed; /* Celeste */
+}
+.letter6 {
+  color: #795fbe; /* Lavanda */
+}
+
+/* Efecto al pasar el mouse */
+.letter:hover {
+  transform: scale(1.2);
+}
+
+/* Subtítulo */
+.sub {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #888;
+  font-weight: 400;
+}
+
+
+
+/* Menú */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 5;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f56c6c;
+}
+
+/* Número de contacto */
+.contact .phone {
+  font-weight: 500;
+  color: #000000;
+  margin-left: 20px;
+}
+
+/* Botón de Reservar */
+.btn-appointment {
+  background: #ef9e86;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.btn-appointment:hover {
+  background: linear-gradient(90deg, #f7a04e, #e36bae);
+  transform: scale(1.1);
+}
+
+/* Icono de Menú Hamburguesa */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.logo-image {
+  width: 24px; /* ajusta al tamaño de la letra */
+  height: auto;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+
+/* ========================= */
+/* ✅ RESPONSIVE para móviles */
+/* ========================= */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    color: #f56c6c;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    background: #fff;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 26, 26, 0.1);
+    padding: 10px 0;
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .btn-appointment {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    padding: 12px 16px;
+    border-radius: 20px;
+    gap: 10px;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .logo {
+    font-size: 20px;
+    justify-content: center;
+  }
+
+  .sub {
+    font-size: 12px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    position: static;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .btn-appointment {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .contact .phone {
+    display: none; /* Opcional para simplificar */
+  }
+}
