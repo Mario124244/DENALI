@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/DENALI/static/css/main.602daa3f.css",
-    "main.js": "/DENALI/static/js/main.9115976b.js",
+    "main.js": "/DENALI/static/js/main.4790c478.js",
     "static/js/453.be7d64de.chunk.js": "/DENALI/static/js/453.be7d64de.chunk.js",
     "static/media/FilsonProBlack.otf": "/DENALI/static/media/FilsonProBlack.03a9993b8c09e0e6cc2f.otf",
     "static/media/FilsonProThin.otf": "/DENALI/static/media/FilsonProThin.ce895acb0838536bb0d8.otf",
     "static/media/Candela.otf": "/DENALI/static/media/Candela.724052f84b9202528ce3.otf",
     "index.html": "/DENALI/index.html",
     "main.602daa3f.css.map": "/DENALI/static/css/main.602daa3f.css.map",
-    "main.9115976b.js.map": "/DENALI/static/js/main.9115976b.js.map",
+    "main.4790c478.js.map": "/DENALI/static/js/main.4790c478.js.map",
     "453.be7d64de.chunk.js.map": "/DENALI/static/js/453.be7d64de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.602daa3f.css",
-    "static/js/main.9115976b.js"
+    "static/js/main.4790c478.js"
   ]
 }
